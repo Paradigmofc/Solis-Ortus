@@ -1,4 +1,5 @@
-
+ var height = $(window).height();
+ var width = $(window).width();
 
 // Анимация движения заднего фона в Главном Экране
 $(document).ready(function(){
@@ -24,26 +25,29 @@ $(document).ready(function(){
     animateDiv('.cup21');
 });
 
-function makeNewPosition(){
-    
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 100;
-    var w = $(window).width() - 100;
-    
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
-    
-    return [nh,nw];    
-    
-}
+if ((height >= 850) && (width >= 1600)) {
 
-function animateDiv(myclass){
-    var newq = makeNewPosition();
-    $(myclass).animate({ top: newq[0], left: newq[1] }, 45000,   function(){
-      animateDiv(myclass);        
-    });
-    
-};
+  function makeNewPosition(){
+      
+      // Get viewport dimensions (remove the dimension of the div)
+      var h = $(window).height() - 100;
+      var w = $(window).width() - 100;
+      
+      var nh = Math.floor(Math.random() * h);
+      var nw = Math.floor(Math.random() * w);
+
+      return [nh,nw];
+  }
+
+  function animateDiv(myclass){
+
+          var newq = makeNewPosition();
+
+          $(myclass).animate({ top: newq[0], left: newq[1] }, 45000,   function(){
+          animateDiv(myclass);        
+          });
+  };
+} 
 
 // Скроллинг по секциям
 
