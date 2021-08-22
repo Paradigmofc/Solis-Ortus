@@ -348,6 +348,10 @@
     .background {
         max-width: 1280px;
     }
+
+    .slick-slide {
+        margin-right: 80px;
+    }
 } 
 
 @media screen and (max-width: 1224px) {
@@ -538,8 +542,20 @@
     .main-answer {
         width: 260px;
     }
-} 
 
+    .arrow-block1:hover:before {
+        display: none;
+    }
+
+    
+    .arrow-block2:hover:before {
+        display: none;
+    }
+
+    .slick-slide {
+        margin-right: 126px;
+    }
+} 
                 
             /* Tablet */
 
