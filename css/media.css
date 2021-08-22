@@ -1,0 +1,562 @@
+
+            /* Desktop PC */
+
+
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 1600px;
+        padding: 0 40px;
+    }
+
+    .background {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .dollar7 {
+        left: 1260px;
+    }
+
+    .finger8 {
+        left: 1280px;
+    }
+
+    .cup9 {
+        left: 1240px;
+    }
+
+    .events {
+        width: auto;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .point-blue {
+        width: 500px;
+    }
+
+    .finances {
+        width: 400px;
+    }
+
+    .point-purple {
+        margin-left: 35px;
+    }
+
+    .point-yellow {
+        margin-left: 35px;
+    }
+
+    .invest-image {
+        display: none;
+    }
+
+    .second-yellow {
+        margin-right: 35px;
+        margin-left: 0;
+    }
+
+    .coin {
+        left: 22%;
+        top: 50%;
+    }
+
+    .coin2 {
+        left: 70%;
+        top: 50%;
+    }
+
+    .image-block {
+        margin-right: 2%;
+    }
+
+    .speakers-list-container {
+        width: auto;
+    }
+
+    .first-speaker {
+        width: 400px;
+    }
+
+    .second-speaker {
+        width: 400px;
+    }
+
+    .third-speaker {
+        width: 400px;
+    }
+
+    .description {
+        width: 400px;
+    }
+
+    .diamond {
+        left: 20%;
+        top: 15%;
+    }
+
+    .diamond2 {
+        left: 75%;
+        top: 15%;
+    }
+
+    .reviews-offer {
+        width: auto;
+    }
+
+    .slider-container {
+        width: auto;
+        padding: 0 35px;
+    }
+
+    .slick-slide {
+        width: 400px;
+        margin-right: 120px;
+    }
+
+    .right-arrow {
+        right: 10px;
+    }
+
+    .arrow-block1:before {
+        display: none;
+    }
+
+    .arrow-block2:before {
+        display: none;
+    }
+
+    .left-arrow {
+        left: 15px;
+    }
+
+    .video-wrap {
+        width: 400px;
+        height: 290px;
+    }
+
+    .registration-title {
+        width: 700px;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+    .cartoon-man {
+        width: 412px;
+        left: -50px;
+    }
+
+    .dollar17 {
+        left: 70%;
+    }
+
+    .registration-offer {
+        padding: 0 35px;
+    }
+
+    .safe-answer {
+        top: 216px;
+    }
+
+    .woman {
+        left: 460px;
+    }
+
+    .first-block-answer {
+        width: 400px;
+    }
+
+    .text-module-answer {
+        padding-left: 35px;
+    }
+
+    .main-answer {
+        width: 360px;
+    }
+
+    .main-question {
+        width: 360px;
+        font-size: 20px;
+    }
+
+    .second-block-answer {
+        width: 400px;
+    }
+
+    .third-block-answer {
+        width: 400px;
+    }
+
+    .footer-item {
+        margin-right: 25px;
+    }
+} 
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .dollar7 {
+        left: 1100px;
+    }
+
+    .finger8 {
+        left: 1200px;
+    }
+
+    .cup19 {
+        left: 220px;
+    }
+
+    .point-purple {
+        margin-left: 25px;
+    }
+
+    .point-yellow {
+        margin-left: 25px;
+    }
+
+    .second-yellow {
+        margin-right: 25px;
+        margin-left: 0;
+    }
+
+    .first-speaker {
+        width: 380px;
+    }
+
+    .description {
+        width: 360px;
+    }
+
+    .second-speaker {
+        width: 380px;
+    }
+
+    .third-speaker {
+        width: 380px;
+    }
+
+    .woman {
+        left: 445px;
+    }
+
+    .footer-button-up {
+        left: 44.5%;
+    }
+} 
+
+@media screen and (max-width: 1367px) {
+    .container {
+        max-width: 1366px;
+    }
+
+    .cup9 {
+        left: 89%;
+    }
+
+    .finger8 {
+        left: 85%;
+    }
+
+    .dollar7 {
+        left: 75%;
+    }
+
+    .cup6 {
+        left: 60%;
+    }
+
+    .point-blue {
+        width: 480px;
+    }
+
+    .point-purple {
+        width: 360px;
+    }
+
+    .point-yellow {
+        width: 440px;
+    }
+
+    .investments {
+        width: 350px;
+    }
+
+    .experience {
+        width: 270px;
+    }
+
+    .finances {
+        width: 360px;
+    }
+
+    .cup21 {
+        left: 70%;
+    }
+
+    .woman {
+        left: 423px;
+        width: 410px;
+    }
+
+    .footer-wrapper {
+        padding: 64px 64px;
+    }
+} 
+
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+
+    .point-blue {
+        width: 440px;
+    }
+
+    .point-purple {
+        width: 310px;
+    }
+
+    .point-yellow {
+        width: 400px;
+    }
+
+    .first-speaker {
+        width: 340px;
+    }
+
+    .second-speaker {
+        width: 340px;
+    }
+
+    .third-speaker {
+        width: 340px;
+    }
+
+    .description {
+        width: 340px;
+    }
+} 
+
+@media screen and (max-width: 1224px) {
+    .container {
+        max-width: 1224px;
+    }
+
+    .dollar3 {
+        left: 37%;
+    }
+
+    .dollar5 {
+        left: 81%;
+    }
+
+    .cup6 {
+        left: 52%;
+    }
+
+    .dollar7 {
+        left: 70%;
+    }
+
+    .cup9 {
+        left: 81%;
+    }
+
+    .man {
+        width: 380px;
+    }
+
+    .title {
+        line-height: 60px;
+    }
+
+    .paragraph {
+        line-height: 27px;
+    }
+
+    .bg-image1 {
+        left: -20%;
+    }
+
+    .bg-image3 {
+        left: 96%;
+    }
+
+    .events {
+        padding-left: 20px;
+    }
+
+    .point-blue {
+        width: 360px;
+    }
+
+    .point-purple {
+        width: 260px;
+    }
+
+    .point-yellow {
+        width: 340px;
+    }
+
+    .text-module {
+        padding: 24px 28px;
+    }
+
+    .e-title {
+        font-size: 22px;
+    }
+
+    .finances {
+        width: 300px;
+    }
+
+    .experience {
+        width: 210px;
+    }
+
+    .investments {
+        width: 260px;
+    }
+    .first-speaker {
+        width: 260px;
+    }
+
+    .second-speaker {
+        width: 260px;
+    }
+
+    .third-speaker {
+        width: 260px;
+    }
+
+    .description {
+        width: 250px;
+    }
+
+    .cup16 {
+        left: 80%;
+    }
+
+    .dollar15 {
+        left: 77%;
+    }
+
+    .cup-details {
+        right: 250px;
+    }
+    
+    .mini-coin4 {
+        left: 347px;
+        top: 50px;
+    }
+
+    .mini-coin5 {
+        left: 360px;
+        top: 5px;
+    }
+
+    .mini-coin6 {
+        left: 385px;
+        top: -55px;
+    }
+
+    .up {
+        left: 330px;
+    }
+
+    .gratitude {
+        width: 450px;
+        margin-left: 100px;
+    }
+
+    .registration-title {
+        width: 640px;
+        margin-left: 350px;
+    }
+
+    .contacts {
+        width: 400px;
+        top: 10%;
+        left: 40px;
+    }
+
+    .woman {
+        left: 404px;
+        width: 275px;
+        top: 175px;
+    }
+
+    .main-answer {
+        width: 280px;
+        font-size: 16px;
+    }
+
+    .main-question {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .footer-button-up {
+        top: -20px;
+    }
+} 
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .man {
+        width: 360px;
+    }
+
+    .point-blue {
+        width: 340px;
+    }
+
+    .registration-title {
+        width: 630px;
+    }
+
+    .main-question {
+        width: 280px;
+    }
+
+    .main-answer {
+        width: 260px;
+    }
+} 
+
+                
+            /* Tablet */
+
+@media screen and (max-width: 991px) {
+
+}    
+
+@media screen and (max-width: 767px) {
+
+}
+
+            /* Mobile */
+
+@media screen and (max-width: 575px) {
+
+}
+
+@media screen and (max-width: 425px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
