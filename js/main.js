@@ -1,41 +1,41 @@
 
 
 // Анимация движения заднего фона в Главном Экране
-$(document).ready(function(){
-    animateDiv('.cup1');
-    animateDiv('.dollar2');
-    animateDiv('.dollar3');
-    animateDiv('.cup4');
-    animateDiv('.dollar5');
-    animateDiv('.cup6');
-    animateDiv('.dollar7');
-    animateDiv('.finger8'); // Переменные для каждой анимированной картинки (добавлять сюда каждый новый класс)
-    animateDiv('.cup9');
-    animateDiv('.cup11');
-    animateDiv('.dollar12');
-    animateDiv('.dollar13');
-    animateDiv('.cup14');
-    animateDiv('.dollar15');
-    animateDiv('.cup16');
-    animateDiv('.dollar17');
-    animateDiv('.finger18');
-    animateDiv('.cup19');
-    animateDiv('.dollar20');
-    animateDiv('.cup21');
-});
+// $(document).ready(function(){
+//     animateDiv('.cup1');
+//     animateDiv('.dollar2');
+//     animateDiv('.dollar3');
+//     animateDiv('.cup4');
+//     animateDiv('.dollar5');
+//     animateDiv('.cup6');
+//     animateDiv('.dollar7');
+//     animateDiv('.finger8'); // Переменные для каждой анимированной картинки (добавлять сюда каждый новый класс)
+//     animateDiv('.cup9');
+//     animateDiv('.cup11');
+//     animateDiv('.dollar12');
+//     animateDiv('.dollar13');
+//     animateDiv('.cup14');
+//     animateDiv('.dollar15');
+//     animateDiv('.cup16');
+//     animateDiv('.dollar17');
+//     animateDiv('.finger18');
+//     animateDiv('.cup19');
+//     animateDiv('.dollar20');
+//     animateDiv('.cup21');
+// });
 
-function makeNewPosition(){
+// function makeNewPosition(){
     
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 500;
-    var w = $(window).width() - 500;
+//     // Get viewport dimensions (remove the dimension of the div)
+//     var h = $(window).height() - 100;
+//     var w = $(window).width() - 100;
     
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
+//     var nh = Math.floor(Math.random() * h);
+//     var nw = Math.floor(Math.random() * w);
     
-    return [nh,nw];    
+//     return [nh,nw];    
     
-}
+// }
 
 function animateDiv(myclass){
     var newq = makeNewPosition();
