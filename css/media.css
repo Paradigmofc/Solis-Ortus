@@ -560,7 +560,267 @@
             /* Tablet */
 
 @media screen and (max-width: 991px) {
+    .container {
+        max-width: 990px;
+    }
 
+    .logotype {
+        font-size: 20px;
+    }
+
+    .item {
+        margin-right: 30px;
+        font-size: 16px;
+    }
+
+    .offer {
+        margin-top: 200px;
+    }
+
+    .title {
+        font-size: 36px;
+        line-height: 45px;
+        width: 443px;
+    }
+
+    .title-indent {
+        margin-bottom: 16px;
+    }
+
+    .paragraph {
+        width: 366px;
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .man {
+        width: 280px;
+        height: 460px;
+    }
+
+    .offer-link {
+        font-size: 20px;
+    }
+
+    .dollar2 {
+        top: 66%;
+    }
+    
+    .dollar5 {
+        display: none;
+    }
+
+    .cup6 {
+        top: 48%;
+    }
+
+    .cup4 {
+        display: none;
+    }
+
+    .about-title {
+        width: 410px;
+    }
+
+    .pixel::before {
+        left: 50%;
+    }
+
+    .first-group_events {
+        flex-direction: column;
+    }
+
+    .point-blue {
+        width: 540px;
+        margin-bottom: 36px;
+        margin-top: 36px;
+    }
+
+    .finances {
+        width: 476px;
+    }
+
+    .point-purple {
+        width: 360px;
+        margin-left: 0;
+        margin-bottom: 36px;
+    }
+
+    .experience {
+        width: 296px;
+    }
+
+    .point-yellow {
+        width: 440px;
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    .investments {
+        width: 376px;
+    }
+
+    .second-group_events {
+        flex-direction: column;
+    }
+
+    .coin {
+        left: 10%;
+    }
+
+    .speakers-title {
+        width: 350px;
+    }
+
+    .pixel2::before {
+        left: 50%;
+    }
+
+    .coin2 {
+        left: 75%;
+    }
+
+    .speakers-list {
+        flex-direction: column;
+    }
+
+    .first-speaker {
+        width: 440px;
+        margin-bottom: 36px;
+    }
+
+    .description {
+        width: 440px;
+    }
+
+    .crown {
+        margin-bottom: 36px;
+    }
+
+    .second-speaker {
+        width: 440px;
+        margin-bottom: 36px;
+    }
+
+    .crown2 {
+        margin-bottom: 36px;
+    }
+
+    .third-speaker {
+        width: 440px;
+        margin-bottom: 36px;
+    }
+
+    .reviews-title {
+        width: 340px;
+    }
+
+    .diamond {
+        left: 10%;
+    }
+
+    .diamond2 {
+        left: 80%;
+    }
+
+    .man-review {
+        display: none;
+    }
+
+    .reviews-list {
+        margin: 0 auto;
+        margin-top: 136px;
+    }
+
+    .slick-slide {
+        width: 440px;
+    }
+
+    .finger-details {
+        left: 560px;
+    }
+
+    .registration-form {
+        margin-top: 382px;
+    }
+
+    .cup11 {
+        left: 10%;
+        top: 5%;
+    }
+
+    .dollar17 {
+        left: 70%;
+        top: 5%;
+    }
+
+    .cup16 {
+        left: 47%;
+        top: 19%;
+    }
+
+    .finger18 {
+        right: 10%;
+        top: 18%;
+    }
+
+    .dollar13 {
+        left: 67%;
+        top: 25%;
+    }
+
+    .contacts-wrap {
+        margin-top: 36px;
+    }
+
+    .contacts-text {
+        padding: 36px 30px 38px 30px;
+    }
+
+    .gratitude {
+        margin-left: 50px;
+    }
+
+    .answer-title {
+        width: 350px;
+    }
+
+    .safe-answer {
+        display: none;
+    }
+
+    .woman {
+        left: 65%;
+    }
+
+    .first-answer {
+        flex-direction: column;
+    }
+
+    .second-answer {
+        flex-direction: column;
+    }
+
+    .third-answer {
+        flex-direction: column;
+    }
+
+    .registration-title {
+        width: 413px;
+    }
+
+    .title_pixel {
+        width: 413px;
+    }
+
+    .footer-wrapper {
+        padding: 64px 10px;
+    }
+
+    .slider-container {
+        width: auto;
+        padding: 0px 164px;
+    }
 }    
 
 @media screen and (max-width: 767px) {
