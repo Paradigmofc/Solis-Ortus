@@ -1205,38 +1205,38 @@ img {
 }
 
 .dollar13 {
-    left: 519px;
+    left: 30%;
     top: 400px;
     z-index: 1;
 }
 
 .cup14 {
-    left: 519px;
+    left: 35%;
     top: 888px;
 }
 
 .dollar15 {
-    left: 977px;
+    left: 60%;
     top: 888px;
 }
 
 .cup16 {
-    left: 1075px;
+    left: 79%;
     top: 372px;
 }
 
 .dollar17 {
-    left: 1470px;
+    left: 70%;
     top: 260px;
 }
 
 .finger18 {
-    right: 66px;
+    right: 10%;
     top: 350px;
 }
 
 .cup19 {
-    right: 42px;
+    right: 6%;
     top: 800px;
 }
 
@@ -1340,7 +1340,7 @@ img {
 }
 
 .dollar20 {
-    left: 500px;
+    left: 32%;
     top: 300px;
     z-index: 1;
     width: 128px;
@@ -1350,7 +1350,7 @@ img {
 .cup21 {
     width: 128px;
     height: 128px;
-    left: 1100px;
+    left: 66%;
     top: -60px;
 }
 /* Футер секция */
