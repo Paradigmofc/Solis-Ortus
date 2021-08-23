@@ -139,6 +139,14 @@
         width: 700px;
     }
 
+    .cup11 {
+        top: 180px;
+    }
+
+    .gratitude {
+        margin-left: 390px;
+    }
+
     .title {
         font-size: 44px;
     }
@@ -191,6 +199,10 @@
 
     .footer-item {
         margin-right: 25px;
+    }
+
+    .footer-wrapper {
+        padding: 64px;
     }
 } 
 
