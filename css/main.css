@@ -1442,3 +1442,7 @@ img {
 .arrow-up {
     margin-left: 24px;
 }
+
+.button-up-deleted {
+    color: #000;
+}

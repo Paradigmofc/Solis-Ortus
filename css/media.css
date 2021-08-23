@@ -935,8 +935,8 @@
 
     .title {
         margin: 0 auto;
-        font-size: 30px;
-        width: 400px;
+        font-size: 28px;
+        width: 345px;
     }
 
     .paragraph {
@@ -946,8 +946,25 @@
     }
 
     .button-block {
-        margin-left: 15%;
+        margin-left: 14%;
     }
+
+    .button-next {
+        margin-left: 53%;
+        position: absolute;
+        top: 95%;
+        width: 20px;
+    }
+
+    .next-link:before {
+        top: -16px;
+        left: -31px;
+    }
+
+    .next-link:hover:before {
+        transform: translateX(20px);
+    }
+
         /* Гамбургер меню */
 
     #menu__toggle {
@@ -995,7 +1012,7 @@
         visibility: hidden;
         top: -36px;
         right: -110%;
-        width: 103%;
+        width: 105%;
         margin: 0;
         padding: 31px 0 41px;
         list-style: none;
@@ -1040,7 +1057,7 @@
       }
       #menu__toggle:checked ~ .menu-hamburger {
         visibility: visible;
-        right: -1.5%;
+        right: -2.5%;
     }
 
     .menu__btn > span,
@@ -1065,6 +1082,155 @@
 
     .image-block {
         display: none;
+    }
+
+    .cup1 {
+        top: 12%;
+        left: 43%;
+    }
+
+    .dollar2 {
+        left: 54%;
+    }
+
+    .dollar3 {
+        left: 1%;
+        top: 38%;
+    }
+
+    .bg-image3 {
+        left: 92%;
+    }
+
+    .more-text {
+        display: none;
+    }
+
+    .events {
+        padding-right: 20px;
+    }
+
+    .speakers-title {
+        width: 265px;
+    }
+
+    .diamond {
+        width: 56px;
+        height: 56px;
+    }
+
+    .diamond2 {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .reviews-title {
+        width: 280px;
+    }
+
+    .slider-container {
+        padding: 0 88px;
+    }
+
+    .details-wrapper {
+        margin-left: 88px;
+    }
+
+    .registration {
+        padding-top: 100px;
+    }
+
+    .cup11 {
+        top: 1%;
+    }
+
+    .finger-details {
+        width: 150px;
+        height: 150px;
+        left: 60%;
+    }
+
+    .registration-wrapper {
+        padding: 70px 0;
+    }
+
+    .registration-title {
+        margin-left: 155px;
+    }
+
+    .cartoon-man {
+        width: 200px;
+        height: 200px;
+    }
+
+    .registration-offer {
+        padding: 0 20px;
+    }
+
+    .registration-form {
+        width: 520px;
+        margin-top: 182px;
+    }
+
+    .reg-btn {
+        margin-top: 120px;
+    }
+
+    .price-form {
+        left: 15%;
+        bottom: 19%;
+    }
+
+    .contacts-wrap {
+        flex-direction: column;
+    }
+
+    .contacts {
+        left: 10px;
+    }
+
+    .gratitude {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .answer-title {
+        width: 260px;
+    }
+
+    .woman {
+        left: 57%;
+        top: 185px;
+    }
+
+    .text-module-answer {
+        padding-left: 16%;
+    }
+
+    .button-up-deleted {
+        display: none;
+    }
+
+    .button-up:before {
+        top: -20px;
+    }
+
+    .button-up:hover:before {
+        transform: translateX(30px);
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        margin-top: 44px;
+    }
+
+    .footer-item {
+        margin-right: 0;
+        margin-top: 44px;
+    }
+
+    .footer-button-up {
+        left: 48%;
     }
 }
 
