@@ -821,6 +821,44 @@
         width: auto;
         padding: 0px 164px;
     }
+
+    .first-block-answer {
+        width: 100%;
+    }
+
+    .second-block-answer {
+        width: 100%;
+    }
+
+    .third-block-answer {
+        width: 100%;
+    }
+
+    .text-module-answer {
+        padding-left: 22%;
+        text-align: center;
+    }
+
+    .main-question {
+        width: 400px;
+    }
+
+    .main-answer {
+        width: 400px;
+    }
+
+    .dollar20 {
+        left: 10%;
+        top: 263px;
+    }
+
+    .footer-wrapper {
+        padding: 100px 10px 30px;
+    }
+
+    .footer-button-up {
+        top: 0;
+    }
 }    
 
 @media screen and (max-width: 767px) {
