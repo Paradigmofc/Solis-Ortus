@@ -1320,9 +1320,333 @@
 }
 
 @media screen and (max-width: 375px) {
+    .container {
+        max-width: 345px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
 
+    .menu__btn {
+        right: 16%;
+        z-index: 5;
+        top: 40px;
+    }
+
+    .menu-hamburger {
+        width: 66%;
+        padding: 60px 0 59px;
+        z-index: 1;
+    }
+
+    #menu__toggle:checked ~ .menu-hamburger {
+        visibility: visible;
+        right: 34.5%;
+    }
+
+    .item {
+        margin-top: 50px;
+        margin-left: 45%;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .offer {
+        margin-top: 105px;
+    }
+
+    .offer-wrapper {
+        width: 100%;
+        text-align: left;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .paragraph {
+        width: 100%;
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    .button-block {
+        margin-left: 8%;
+        margin-top: 44px;
+    }
+
+    .offer-link {
+        font-size: 18px;
+    }
+
+    .offer-link:before {
+        width: 44px;
+        height: 44px;
+        left: -20px;
+        top: -11px;
+    }
+
+    .button-next {
+        top: 91%;
+    }
+
+    .head-wrapper {
+        padding-bottom: 115px;
+    }
+
+    .about-wrapper {
+        padding: 55px 15px;
+    }
+
+    .about-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bg-image1 {
+        width: 60px;
+        height: 60px;
+        top: 15px;
+        left: 8%;
+    }
+
+    .bg-image3 {
+        width: 60px;
+        height: 60px;
+        left: 72%;
+        top: 20px;
+    }
+
+    .bg-image2 {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .pixel::before {
+        width: 6px;
+        height: 6px;
+        top: 110%;
+    }
+
+    .events {
+        margin-top: 50px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .point-purple {
+        width: 100%;
+    }
+
+    .point-blue {
+        width: 100%;
+    }
+
+    .point-yellow {
+        width: 100%;
+        margin: 0;
+    }
+
+    .investments {
+        width: 100%;
+    }
+
+    .e-title {
+        font-size: 20px;
+    }
+
+    .e-paragraph {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .finances {
+        width: 100%;
+    }
+
+    .speakers-wrapper {
+        padding: 0;
+    }
+
+    .coin {
+        width: 60px;
+        height: 60px;   
+        top: 20%;
+    }
+
+    .coin2 {
+        width: 60px;
+        height: 60px;
+        top: 20%;
+    }
+
+    .megaphone {
+        width: 90px;
+        height: 90px;
+    }
+
+    .speaker-background {
+        height: 200px;
+    }
+
+    .speakers-title {
+        width: 250px;
+    }
+
+    .pixel2::before {
+        top: 110%;
+        width: 6px;
+        height: 6px;
+    }
+
+    .speakers-list {
+        padding: 64px 15px;
+    }
+
+    .first-speaker {
+        width: 100%;
+    }
+
+    .second-speaker {
+        width: 100%;
+    }
+
+    .third-speaker {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .proffesion {
+        font-size: 12px;
+    }
+
+    .crown {
+        width: 60px;
+        height: 60px;
+    }
+
+    .crown2 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .reviews-wrapper {
+        padding: 100px 15px;
+    }
+
+    .message {
+        width: 90px;
+        height: 90px;
+    }
+
+    .reviews-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .diamond {
+        width: 40px;
+        height: 40px;
+        left: 18%;
+        top: 7%;
+    }
+
+    .diamond2 {
+        width: 40px;
+        height: 40px;
+        top: 7%;
+        left: 73%;
+    }
+
+    .reviews-list {
+        margin-top: 90px;
+        width: 100%;
+    }
+
+    .first-review {
+        width: 100%;
+    }
+
+    .review-paragraph {
+        width: 100%;
+        line-height: 22px;
+    }
+
+    .text-module-review {
+        padding: 44px 24px 44px 44px;
+    }
+
+    .second-review {
+        width: 100%;
+    }
+
+    .third-review {
+        width: 100%;
+    }
+
+    .quotes2 {
+        top: 290px;
+    }
+
+    .cup-details {
+        right: 10%;
+        width: 60px;
+        height: 60px;
+        top: -150px;
+    }
+
+    .details-wrapper {
+        margin: 40px 0;
+    }
+
+    .details-title {
+        font-size: 20px;
+    }
+
+    .slick-slide {
+        width: 100%;
+    }
+
+    .slider-container {
+        padding: 0;
+    }
+
+    .img-slide {
+        width: 345px;
+    }
+
+    .video-wrap {
+        width: 345px;
+    }
+
+    .finger-details {
+        display: none;
+    }
+
+    .img-slide {
+        width: 345px;
+    }
+
+    .arrow-block1 {
+        display: none;
+    }
+
+    .arrow-block2 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 320px) {
-
+   
 }
