@@ -399,8 +399,17 @@
         left: 96%;
     }
 
+    .about-title {
+        width: 500px;
+    }
+
     .events {
         padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pixel::before {
+        left: 50%;
     }
 
     .point-blue {
@@ -434,6 +443,23 @@
     .investments {
         width: 260px;
     }
+
+    .speakers-title{
+        width: 425px;
+    }
+
+    .pixel2::before {
+        left: 50%;
+    }
+
+    .coin {
+        left: 20%;
+    }
+
+    .diamond {
+        left: 15%;
+    }
+
     .first-speaker {
         width: 260px;
     }
@@ -461,6 +487,35 @@
     .cup-details {
         right: 250px;
     }
+
+    .mini-coin1 {
+        left: 200px;
+    }
+
+    .mini-coin2 {
+        left: 155px;
+        top: -80px;
+    }
+
+    .mini-coin3 {
+        left: 100px;
+        top: -150px;
+    }
+
+    .mini-dollar6 {
+        left: 330px;
+        top: -140px;
+    }
+
+    .mini-dollar5 {
+        left: 310px;
+        top: -80px;
+    }
+
+    .mini-dollar4 {
+        left: 300px;
+        top: -30px;
+    }
     
     .mini-coin4 {
         left: 347px;
@@ -481,6 +536,10 @@
         left: 330px;
     }
 
+    .cup11 {
+        top: 180px;
+    }
+
     .gratitude {
         width: 450px;
         margin-left: 100px;
@@ -495,6 +554,10 @@
         width: 400px;
         top: 10%;
         left: 40px;
+    }
+
+    .answer-title {
+        width: 430px;
     }
 
     .woman {
@@ -514,7 +577,7 @@
     }
 
     .footer-button-up {
-        top: -20px;
+        top: -45px;
     }
 } 
 
