@@ -866,6 +866,14 @@
         padding: 0px 164px;
     }
 
+    .right-arrow {
+        right: 13%;
+    }
+
+    .left-arrow {
+        left: 13%;
+    }
+
     .first-block-answer {
         width: 100%;
     }
