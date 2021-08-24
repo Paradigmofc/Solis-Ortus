@@ -2,6 +2,12 @@
             /* Desktop PC */
 
 
+@media screen and (max-width: 1720px) {
+
+    
+
+}
+
 @media screen and (max-width: 1600px) {
     .container {
         max-width: 1600px;
@@ -14,19 +20,19 @@
     }
 
     .dollar7 {
-        left: 1260px;
+        left: 1220px;
     }
 
     .finger8 {
-        left: 1280px;
-    }
-
-    .cup9 {
         left: 1240px;
     }
 
+    .cup9 {
+        left: 1200px;
+    }
+
     .events {
-        width: 1368px;
+        width: 1329px;
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -229,8 +235,16 @@
         left: 1200px;
     }
 
+    .cup9 {
+        left: 1200px;
+    }
+
     .cup19 {
         left: 220px;
+    }
+
+    .events {
+        width: 1294px;
     }
 
     .point-purple {
@@ -294,6 +308,10 @@
 
     .cup6 {
         left: 60%;
+    }
+
+    .events {
+        max-width: 1287px;
     }
 
     .point-blue {
