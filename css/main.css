@@ -222,7 +222,7 @@ img {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     z-index: -1;
-    left: 136px;
+    left: 136%;
     transition: 0.5s ease;
     pointer-events: none;
 }
@@ -1470,7 +1470,7 @@ img {
 .button-up:hover:before {
     transition: 0.5s ease;
     pointer-events: none;
-    left: 70px;
+    left: 112%;
 }
 
 .arrow-up {
