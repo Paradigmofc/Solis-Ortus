@@ -1819,6 +1819,14 @@
     .text-module-answer {
         padding-left: 4%;
     }
+
+    .main-question {
+        width: 100%;
+    }
+
+    .main-answer {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 375px) {
