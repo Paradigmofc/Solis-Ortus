@@ -1820,6 +1820,19 @@
         padding-left: 4%;
     }
 
+    .registration-title {
+        width: 240px;
+        margin-left: 120px;
+    }
+
+    .cartoon-man {
+        left: -80px;
+    }
+
+    .contacts {
+        width: 375px;
+    }
+
     .main-question {
         width: 100%;
     }
