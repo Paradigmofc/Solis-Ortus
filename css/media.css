@@ -1786,7 +1786,8 @@
     }
 
     .video-wrap {
-        width: 420px;
+        width: 375px;
+        height: 280px;
     }
 
     .finger-details {
