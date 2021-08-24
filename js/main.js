@@ -71,18 +71,18 @@ $(function(){
       variableWidth: true,
       responsive: [
         {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+          },
           breakpoint: 575,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-          },
-          // breakpoint: 425,
-          // settings: {
-          //   slidesToShow: 1,
-          //   slidesToScroll: 1,
-          //   infinite: true,
-          // }
+          }
         }
       ],
       prevArrow: $('.slick-prev'),
