@@ -742,6 +742,14 @@
         padding: 0 137px;
     }
 
+    .first-speaker-group {
+        flex-direction: column;
+    }
+
+    .second-speaker-group {
+        flex-direction: column;
+    }
+
     .slick-slide {
         margin-right: 153px;
     }
@@ -1918,11 +1926,11 @@
     .woman {
         left: 1%;
         width: 200px;
-        top: 225px;
+        top: 125px;
     }
 
     .text-module-answer {
-        padding-left: 4%;
+        padding: 36px 15px;
     }
 
     .registration-title {

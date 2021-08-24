@@ -555,6 +555,17 @@ img {
     padding-bottom: 64px;
 }
 
+.first-speaker-group {
+    display: flex;
+    align-items: center;
+}
+
+.second-speaker-group {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
 .first-speaker {
     width: 440px;
     text-align: center;
