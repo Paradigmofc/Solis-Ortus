@@ -14,11 +14,11 @@
     }
     
     .right-arrow {
-        right: -2%;
+        right: 1%;
     }
 
     .left-arrow {
-        left: -2%;
+        left: 1%;
     }
 
     .arrow-block2:before {
@@ -49,9 +49,18 @@
         width: 100%;
     }
 
+    .slider-container {
+        width: 1497px;
+        padding: 0 51px;
+    }
+
     .slick-slide {
-        width: 430px;
-        margin-right: 130px;
+        width: 420px;
+        margin-right: 120px;
+    }
+
+    .video-wrap {
+        width: 420px;
     }
 
 }
