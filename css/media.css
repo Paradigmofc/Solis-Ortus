@@ -4,7 +4,55 @@
 
 @media screen and (max-width: 1720px) {
 
+    .container {
+        max-width: 1700px;
+        padding: 0 15px;
+    }
 
+    .invest-image {
+        display: none;
+    }
+    
+    .right-arrow {
+        right: -2%;
+    }
+
+    .left-arrow {
+        left: -2%;
+    }
+
+    .arrow-block2:before {
+        display: none;
+    }
+
+    .arrow-block2:hover:before {
+        display: none;
+    }
+
+    .arrow-block1:before {
+        display: none;
+    }
+
+    .arrow-block1:hover:before {
+        display: none;
+    }
+
+    .woman {
+        left: 566px;
+    }
+
+    .main-answer {
+        width: 100%;
+    }
+
+    .main-question {
+        width: 100%;
+    }
+
+    .slick-slide {
+        width: 430px;
+        margin-right: 130px;
+    }
 
 }
 
