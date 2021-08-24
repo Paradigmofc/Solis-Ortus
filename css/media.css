@@ -673,6 +673,9 @@
         display: none;
     }
 
+    .events {
+        max-width: 950px;
+    }
     
     .arrow-block2:hover:before {
         display: none;
