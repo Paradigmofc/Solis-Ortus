@@ -1847,18 +1847,43 @@
         right: 7%;
     }
 
-    .registration-title {
-        width: 244px;
-        margin-left: 121px;
+    .experience {
+        width: 100%;
+    }
+
+    .quotes2 {
+        top: 333px;
+    }
+
+    .title_pixel::before {
+        display: none;
     }
 
     .cartoon-man {
-        left: -81px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .registration-title {
+        width: 244px;
+        margin-left: 72px;
+    }
+
+    .cartoon-man {
+        left: -64px;
         top: -43px;
+        width: 160px;
+        height: 160px;
     }
 
     .contacts {
-        width: 375px;
+        width: 100%;
+    }
+
+    .cont-title {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .main-question {
@@ -1870,15 +1895,11 @@
     }
 
     .video-wrap {
-        width: 375px;
-    }
-
-    .contacts {
-        width: 345px;
+        width: 340px;
     }
 
     .gratitude {
-        width: 345px;
+        width: 100%;
         text-align: center;
     }
 
@@ -1904,10 +1925,6 @@
 
     .woman {
         top: 122px;
-    }
-
-    .registration-title {
-        margin-left: 111px;
     }
 
     .video-wrap {
