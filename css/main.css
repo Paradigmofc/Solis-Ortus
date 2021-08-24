@@ -918,7 +918,7 @@ img {
     height: 42px;
     background: #F5C174;
     border-radius: 50px;
-    top: 147px;
+    top: 140px;
     right: -65px;
 }
 
@@ -930,7 +930,7 @@ img {
     height: 42px;
     background: #F5C174;
     border-radius: 50px;
-    top: 147px;
+    top: 140px;
     right: -65px;
     transform: translateX(50px);
     transition: all 0.5s ease;
