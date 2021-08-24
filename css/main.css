@@ -845,6 +845,7 @@ img {
 
 .slick-slide {
     width: 440px;
+    margin-right: 100px;
 }
 
 .img-slide {
@@ -896,6 +897,8 @@ img {
     position: absolute;
     right: -100px;
     top: 50%;
+    width: 12px;
+    height: 12px;
 }
 
 .left-arrow {
@@ -903,6 +906,8 @@ img {
     left: -100px;
     transform: rotate(180deg);
     top: 50%;
+    width: 12px;
+    height: 12px;
 }
 
 .arrow-block1:before {

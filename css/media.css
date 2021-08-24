@@ -1376,6 +1376,41 @@
 
 @media screen and (max-width: 575px) {
 
+    .container {
+        padding-bottom: 100px;
+    }
+
+    .button-next {
+        top: 105%;
+    }
+
+    .offer {
+        margin-top: 100px;
+    }
+
+    .menu__btn {
+        top: 40px;
+        right: 40px;
+    }
+
+    .bg-image3 {
+        left: 90%;
+    }
+
+    .events {
+        max-width: 495px;
+    }
+
+    .registration-title {
+        margin-left: 149px;
+        width: 378px;
+    }
+
+    .woman {
+        left: 55%;
+        top: 190px;
+        width: 251px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -1848,6 +1883,19 @@
 
     .woman {
         top: 122px;
+    }
+
+    .registration-title {
+        margin-left: 111px;
+    }
+
+    .video-wrap {
+        width: 340px;
+        height: 230px;
+    }
+
+    .img-slide {
+        width: 340px;
     }
 }
 
