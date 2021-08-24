@@ -339,6 +339,10 @@
         max-width: 1300px;
     }
 
+    .events {
+        max-width: 1210px;
+    }
+
     .point-blue {
         width: 440px;
     }
