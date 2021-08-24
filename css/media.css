@@ -738,6 +738,10 @@
         display: none;
     }
 
+    .slider-container {
+        padding: 0 137px;
+    }
+
     .slick-slide {
         margin-right: 153px;
     }
