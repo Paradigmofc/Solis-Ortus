@@ -208,14 +208,9 @@ img {
 }
 
 .image-block {
-    margin-top: -50px;
-    margin-right: 140px;
+    margin-top: -120px;
+    margin-right: 20px;
     flex: 0 0 auto;
-}
-
-.man {
-    width: 468px;
-    height: 691px;
 }
 
 .arrow {
@@ -449,7 +444,7 @@ img {
     background: #D7AEFF;
     box-shadow: 0px 18px 24px -16px rgba(0, 0, 0, 0.12);
     border-radius: 36px;
-    margin-left: 96px;
+    margin-left: 64px;
 }
 
 .point-yellow {
@@ -457,12 +452,12 @@ img {
     box-shadow: 0px 18px 24px -16px rgba(0, 0, 0, 0.12);
     border-radius: 36px;
     width: 440px;
-    margin-left: 96px;
+    margin-left: 64px;
     position: relative;
 }
 
 .second-yellow {
-    margin: 0 96px 0 0;
+    margin: 0 64px 0 0;
 }
 
 .invest-image {
@@ -505,7 +500,7 @@ img {
     position: absolute;
     transform: rotate(12.72deg);
     left: 450px;
-    top: 60px;
+    bottom: 22%;
 }
 
 .pixel2:before {
@@ -524,7 +519,7 @@ img {
     transform: rotate(-69.71deg);
     position: absolute;
     left: 1358px;
-    top: 60px;
+    bottom: 22%;
 }
 
 .speakers-list-container {
@@ -899,12 +894,12 @@ img {
     top: 50%;
     width: 12px;
     height: 12px;
+    transform: rotate(180deg);
 }
 
 .left-arrow {
     position: absolute;
     left: -100px;
-    transform: rotate(180deg);
     top: 50%;
     width: 12px;
     height: 12px;
@@ -918,8 +913,10 @@ img {
     height: 42px;
     background: #F5C174;
     border-radius: 50px;
-    top: 140px;
+    top: 145px;
     right: -65px;
+    transition: 0.5s ease;
+    pointer-events: none;
 }
 
 .arrow-block1:hover:before {
@@ -930,10 +927,9 @@ img {
     height: 42px;
     background: #F5C174;
     border-radius: 50px;
-    top: 140px;
-    right: -65px;
-    transform: translateX(50px);
-    transition: all 0.5s ease;
+    top: 145px;
+    right: -114px;
+    pointer-events: none;
 }
 
 .arrow-block2:before {
@@ -944,8 +940,10 @@ img {
     height: 42px;
     background: #F5C174;
     border-radius: 50px;
-    top: 147px;
+    top: 140px;
     left: -65px;
+    transition: 0.5s ease;
+    pointer-events: none;
 }
 
 .arrow-block2:hover:before {
@@ -956,10 +954,9 @@ img {
     height: 42px;
     background: #F5C174;
     border-radius: 50px;
-    top: 147px;
-    right: -65px;
-    transform: translateX(-50px);
-    transition: all 0.5s ease;
+    top: 140px;
+    left: -115px;
+    pointer-events: none;
 }
 
 /* Иконки на заднем фоне */
@@ -1204,48 +1201,55 @@ img {
 .cup11 {
     left: 44px;
     top: 325px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .dollar12 {
     left: 115px;
     top: 1000px;
+    z-index: 5;
 }
 
 .dollar13 {
     left: 30%;
     top: 400px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .cup14 {
     left: 35%;
     top: 888px;
+    z-index: 5;
 }
 
 .dollar15 {
     left: 60%;
     top: 888px;
+    z-index: 5;
 }
 
 .cup16 {
     left: 79%;
     top: 372px;
+    z-index: 5;
 }
 
 .dollar17 {
     left: 70%;
     top: 260px;
+    z-index: 5;
 }
 
 .finger18 {
     right: 10%;
     top: 350px;
+    z-index: 5;
 }
 
 .cup19 {
     right: 6%;
     top: 800px;
+    z-index: 5;
 }
 
 /* Секция "Ответы на вопросы" */
